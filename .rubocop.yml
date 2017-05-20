@@ -1,0 +1,13 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'spec/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.3
+
+Style/Documentation:
+  Enabled: false
